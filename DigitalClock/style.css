@@ -1,0 +1,61 @@
+html, body {
+background-color: rgb(27, 27, 27);
+}
+
+h1 {
+color: white;
+text-align: center;
+padding-bottom: 7rem;
+}
+
+p {
+font-family: verdana;
+font-size: 20px;
+}
+
+.DigitalClock{
+	background-color: #000000;
+	color: #fff;
+	display: flex;
+	border-radius: 10rem;
+	user-select: none;
+	padding: 0 2rem;
+	border: 0.1rem solid #4aeb00;
+	justify-content: center;
+}
+
+.week{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	color: #070070;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.week .active{
+	color: white;
+}
+
+.time{
+	font-family: DS-Digital;
+}
+
+.hour, .min, .dot, .dot1, .sec{
+	display: inline-block;
+	font-size: 16rem;
+}
+
+.dot, .dot1{
+	padding-bottom: 2rem;
+}
+
+.min{
+	display: math;
+}
+
+.invisible{
+	visibility :hidden;
+}
