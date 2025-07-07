@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FD Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Calculate your Fixed Deposit</h1>
+		<div class="formGroup">
+			<label for="principle">Principle amount (in INR) :</label>
+			<input type="number" name="principle" id="principle" placeholder="Main amount in INR">
+		</div>
+		<div class="formGroup">
+			<label for="rate">Rate of Interest (in %):</label>
+			<input type="number" name="rate" id="rate" placeholder="Interest rate in percentage">
+		</div>
+		<div class="formGroup">
+			<label for="time">Time (in years):</label>
+			<input type="number" name="time" id="time" placeholder="Time to mature">
+		</div>
+		<button type="submit" id="calculate" class="calculateBtn">Calculate</button>
+		<p id="result" class="result">Final Amount :</p>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
