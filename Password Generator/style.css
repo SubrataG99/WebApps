@@ -1,0 +1,54 @@
+body {
+	background-color: aliceblue;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 25px;
+	background-color: antiquewhite;
+	border-radius: 8px;
+	box-shadow: 0 0 5px #000;
+}
+
+h1 {
+	text-align: center;
+	margin: 3px;
+	margin-bottom: 10px;
+}
+
+label {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+#password {
+	padding: 10px;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 6px;
+	font-size: 20px;
+	/* border: 1px solid #000; */
+	border: none;
+	border-radius: 6px;
+}
+
+#genPass {
+	padding: 3px 10px;
+	border: 1px dashed #000;
+	background-color: #4caf50;
+	color: aliceblue;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+#genPass:hover {
+	padding: 3px 10px;
+	border: 1px solid #000;
+	background-color: #38883c;
+	color: aliceblue;
+	border-radius: 5px;
+	font-size: 15px;
+}
